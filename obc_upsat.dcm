@@ -1,3 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP STM32F405R
+D STM32F405Rx, 32-bit ARM Cortex-M4F microcontroller, 168 MHz, 512-1024 kB Flash, 192 kB SRAM, FPU
+K ARM 32bit CortexM4F M4F STM Microcontroller FPU
+F http://www.st.com/web/catalog/mmc/FM141/SC1169/SS1577/LN1035/PF252144
+$ENDCMP
+#
+$CMP Si1401EDH
+D Transistor P-MOSFET Si1401EDH
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 #End Doc Library
