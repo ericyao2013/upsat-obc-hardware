@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name obc_upsat)(type KiCad)(uri "$(KIPRJMOD)/obc_upsat.pretty")(options "")(descr ""))
+)
