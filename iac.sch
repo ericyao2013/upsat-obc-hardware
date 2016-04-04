@@ -1286,9 +1286,9 @@ Text Label 4800 2860 0    60   ~ 0
 A2
 Text Label 4800 3340 0    60   ~ 0
 A5
-Text Label 4800 3790 0    60   ~ 0
-A6
 Text Label 4800 4260 0    60   ~ 0
+A6
+Text Label 4800 3790 0    60   ~ 0
 A7
 Text Label 4800 4710 0    60   ~ 0
 A8
@@ -1298,9 +1298,9 @@ Text Label 9610 2860 0    60   ~ 0
 B2
 Text Label 9610 3340 0    60   ~ 0
 B5
-Text Label 9610 3790 0    60   ~ 0
-B6
 Text Label 9610 4260 0    60   ~ 0
+B6
+Text Label 9610 3790 0    60   ~ 0
 B7
 Text Label 9610 4710 0    60   ~ 0
 B8
@@ -1386,4 +1386,8 @@ $EndComp
 Wire Wire Line
 	7070 2700 7070 2630
 Connection ~ 7070 2630
+Text Notes 5510 1980 0    79   ~ 0
+The A and B sides of an unused data \nI/O pair must be held in the same state, \nboth at GND.
+Text Notes 5520 5200 0    79   ~ 0
+Use SPI or UART.\nSPI should be used for DART.
 $EndSCHEMATC

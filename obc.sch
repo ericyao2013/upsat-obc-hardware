@@ -1410,7 +1410,7 @@ Text Label 12790 4480 2    60   ~ 0
 F_WP
 Text Label 9350 3400 0    60   ~ 0
 SPI3_MOSI
-Text Label 9350 2900 0    60   ~ 0
+Text Label 9350 3700 0    60   ~ 0
 USB_EN
 Text Label 9350 3000 0    60   ~ 0
 IAC_EN
@@ -1420,7 +1420,6 @@ NoConn ~ 9250 4900
 NoConn ~ 9250 4800
 NoConn ~ 9250 4700
 NoConn ~ 9250 3800
-NoConn ~ 9250 3700
 $Comp
 L FILTER FB1
 U 1 1 56DCFB49
@@ -1780,8 +1779,6 @@ Wire Wire Line
 	15180 2970 15180 2820
 Wire Wire Line
 	15180 3320 15180 3170
-Wire Wire Line
-	9250 2900 9350 2900
 Wire Wire Line
 	7600 1700 7600 1850
 Wire Wire Line
@@ -2617,4 +2614,9 @@ F 3 "" H 11670 6050 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	11670 6050 11670 6160
+Wire Wire Line
+	9250 3700 9350 3700
+NoConn ~ 9250 2900
+Text Notes 11480 9790 0    79   ~ 0
+UART should be used for Debug mode (UMB).
 $EndSCHEMATC
