@@ -618,13 +618,13 @@ Text Label 6590 3800 2    60   ~ 0
 TX3
 Text Label 4420 2630 2    60   ~ 0
 RX1
-Text Label 13990 4390 2    60   ~ 0
-RX_UART
 Text Label 13990 4290 2    60   ~ 0
-TX_UART
-Text Label 7950 3800 0    60   ~ 0
 RX_UART
+Text Label 13990 4390 2    60   ~ 0
+TX_UART
 Text Label 7950 3700 0    60   ~ 0
+RX_UART
+Text Label 7950 3800 0    60   ~ 0
 TX_UART
 NoConn ~ 4590 7230
 $Comp
@@ -645,8 +645,6 @@ Text Label 13990 4490 2    60   ~ 0
 Text Label 7370 2570 0    60   ~ 0
 3.3V_IAC
 Text Label 8510 3210 0    60   ~ 0
-3.3V_IAC
-Text Label 6940 6230 0    60   ~ 0
 3.3V_IAC
 Text Label 3880 6730 1    60   ~ 0
 3.3V_IAC
@@ -831,8 +829,6 @@ Wire Wire Line
 	4590 6330 4460 6330
 Wire Wire Line
 	4460 6630 4590 6630
-Wire Wire Line
-	6290 6230 6940 6230
 Wire Wire Line
 	6290 7430 6420 7430
 Wire Wire Line
@@ -1394,4 +1390,5 @@ Text Notes 5510 1980 0    79   ~ 0
 The A and B sides of an unused data \nI/O pair must be held in the same state, \nboth at GND.
 Text Notes 5520 5200 0    79   ~ 0
 Use SPI or UART.\nSPI should be used for DART.
+NoConn ~ 6290 6230
 $EndSCHEMATC
