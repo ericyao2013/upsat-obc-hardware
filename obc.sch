@@ -398,9 +398,9 @@ F 3 "" H 10100 5450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 10400 5250 0    60   ~ 0
-ADCS_RX
-Text Label 10400 5450 0    60   ~ 0
 ADCS_TX
+Text Label 10400 5450 0    60   ~ 0
+ADCS_RX
 $Comp
 L R R5
 U 1 1 56D5E276
@@ -428,9 +428,9 @@ EPS_TX
 Text Label 1000 5850 2    60   ~ 0
 EPS_RX
 Text Label 1050 4820 2    60   ~ 0
-COMMS_TX
-Text Label 1050 4620 2    60   ~ 0
 COMMS_RX
+Text Label 1050 4620 2    60   ~ 0
+COMMS_TX
 $Comp
 L C_Small C7
 U 1 1 56D5E27A
@@ -729,15 +729,15 @@ F 3 "" H 14070 7210 50  0000 C CNN
 	1    14070 7210
 	0    -1   -1   0   
 $EndComp
-Text Label 13370 7360 2    60   ~ 0
-COMMS_RX
 Text Label 14070 7360 0    60   ~ 0
+COMMS_RX
+Text Label 13370 7360 2    60   ~ 0
 COMMS_TX
 Text Label 13370 7460 2    60   ~ 0
 COMMS_EN
-Text Label 13370 7960 2    60   ~ 0
-ADCS_RX
 Text Label 14070 7960 0    60   ~ 0
+ADCS_RX
+Text Label 13370 7960 2    60   ~ 0
 ADCS_TX
 $Comp
 L GND #PWR028

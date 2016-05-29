@@ -1391,4 +1391,8 @@ The A and B sides of an unused data \nI/O pair must be held in the same state, \
 Text Notes 5520 5200 0    79   ~ 0
 Use SPI or UART.\nSPI should be used for DART.
 NoConn ~ 6290 6230
+Text Label 14670 2770 0    79   ~ 0
+Dcon-
+Text Label 14040 2770 2    79   ~ 0
+Dcon+
 $EndSCHEMATC
